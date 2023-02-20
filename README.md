@@ -10,7 +10,7 @@
 
 ##Install and run the app:
 ####You have first to clone your repo:
-git clone https://github.com/albinotonnina/albinotonnina.com your-destination-folder
+git clone https://github.com/peter5david/hangman/index.js your-destination-folder
 ####After the clone
 - open terminal
 - cd your-destination-folder
