@@ -5,9 +5,109 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #bee067;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.container{
+  background-color: white;
+  border-color: gray;
+  border-style: solid;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 20px;
+   box-shadow: 0 24px 28px 0 rgba(0, 0, 0, 0.2), 0 15px 30px 0 rgba(0, 0, 0, 0.19);
+}
+
+.abcButtons {
+  background-color: white;
+  border-color: #bee067;
+  border-radius: 10px;
+  padding: 10px 10px 10px 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.abcButtons:hover {
+  background-color: #bee067;
+  color: darkgreen;
+  border-color: black;
+  border-radius: 10px;
+  padding: 10px 10px 10px 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.wrongGuesses {
+  position: relative;
+  top: -110px;
+  right: -400px;
+  font-size: 25px;
+  font-family:cursive;
+}
+
+.container h1 {
+  font-family: cursive;
+}
+
+.container h2 {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.startToPlay {
+  font-family: cursive;
+  font-size: 20px;
+}
+
+.gameWords {
+ font-family: cursive;
+ font-size: 30px;
+}
+
+.gameStatDisplay {
+  color: red;
+  position: relative;
+  font-size: 25px;
+  font-family:cursive;
+  font-weight: bold;
+}
+
+.restartGameButton {
+  background-color: white;
+  border-color: #bee067;
+  border-radius: 10px;
+  padding: 10px 10px 10px 10px;
+  font-size: 15px;
+}
+
+.hideHelp {
+  width: 280px;
+  position: relative;
+  top: -550px;
+  right: -550px;
+  font-size: 20px;
+  font-family:cursive;
+}
+
+.helpButton {
+  background-color: white;
+  border-color: #bee067;
+  border-radius: 10px;
+  padding: 10px 10px 10px 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.helpButton:hover {
+  background-color: darkgreen;
+  color: white;
+  border-color: #bee067;
+  border-radius: 10px;
+  padding: 10px 10px 10px 10px;
+  font-size: 20px;
+  text-transform: uppercase;
 }
